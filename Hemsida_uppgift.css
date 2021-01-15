@@ -1,0 +1,70 @@
+/*stjärna innebär att det påverkar allting på sidan, på så sätt kommer det inte finnas någon padding på hela sidan*/
+*{
+	margin: 0;
+	padding: 0; 
+}
+/*selektor anropar body*/
+body{
+	background-color: #98c77d; /*grön bakgrundsfärg*/
+}
+/*selektor anropar nav*/
+nav {
+	width: 100%;
+	height: 100px; /*storlek på nav*/
+	background-color: #eee; /*ljusgrå färg*/
+}
+/*selektor anropar ul*/
+ul{
+	margin-left: 43%;  /*position på meny*/   
+}
+/*innebär att det påverkar alla li som ligger i ul*/
+ul li{
+	list-style: none;    /*ingen stil på listan*/
+	display: inline-block;
+	float: left;   /*float till vänster*/
+	line-height: 100px;  /*höjden på blcken*/
+}
+/*samma fast a innuti li*/
+ul li a{
+	display: block;    /* Displays block runt bilden*/   
+	text-decoration: none;     /*ingen textdcekoration*/
+	font-size: 20px;      /*text storlek*/
+	font-family: arial;    /*typsnitt arial*/
+	color: #1e1e1e;    /*mörk färg*/
+	padding: 0 20px;    /*padding top är mellanrummet från andra objekt 20 px*/
+}
+/*innebär att när man har muspekaren över blir det en annan färg*/
+ul li a:hover{
+	color: #98c77d; /*grön färg*/
+}
+/*klasselektor för lokal meny*/
+.lokal-ul{
+	margin-left: 28%;  /*position på lokala menyn*/
+}
+/*klasselektor anropar h1 från båda sidorna*/
+.webergrill{
+	font-size:30px;       /*textstorlek*/
+	text-align: center;    /*centrerad text*/
+	color: 1e1e1e;      /*mörk färg*/
+	padding-top: 30px;    /*padding top är mellanrummet uppifrån alltså 30 px*/
+}
+/*klasselektor anropar bild från båda sidorna*/
+.djur-bild{
+   display: block;     /* Displays block runt bilden*/   
+   margin-left: auto;    
+   margin-right: auto;   /*centrerar bilden*/
+   width: 600px;   /*bredd 600px*/
+   padding-top: 30px;   /*padding top är mellanrummet uppifrån alltså 30 px*/
+  
+}
+/*klasselektor anropar <p> från båda sidorna*/
+.djur-text{
+	text-align: center;    /*centrerad text*/
+	font-size: 25px;       /*storlek 25px*/
+	font-family: arial;    /*typsnitt arial*/
+	padding-top: 20px;    /*padding top är mellanrummet uppifrån alltså 20 px*/
+}
+
+
+
+
