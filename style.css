@@ -87,3 +87,30 @@ body{
 .gif{
 	margin: auto; /*Lägger bilden i mitten*/
 }
+.djur-bild{
+   display: block;     /* Displays block runt bilden*/   
+   margin-left: auto;    
+   margin-right: auto;   /*centrerar bilden*/
+   width: 600px;   /*bredd 600px*/
+   padding-top: 30px;   /*padding top är mellanrummet uppifrån alltså 30 px*/
+  
+}
+/*klasselektor anropar <p> från båda sidorna*/
+.djur-text{
+	text-align: center;    /*centrerad text*/
+	font-size: 25px;       /*storlek 25px*/
+	font-family: arial;    /*typsnitt arial*/
+	padding-top: 20px;    /*padding top är mellanrummet uppifrån alltså 20 px*/
+}
+/*klasselektor anropar h1 från båda sidorna*/
+.Djuret{
+	font-size:30px;       /*textstorlek*/
+	text-align: center;    /*centrerad text*/
+	color: #1e1e1e;      /*mörk färg*/
+	padding-top: 30px;    /*padding top är mellanrummet uppifrån alltså 30 px*/
+}
+/*klasselektor för lokal meny*/
+.lokal-ul{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
